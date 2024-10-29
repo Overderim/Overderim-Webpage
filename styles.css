@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.hero {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services {
+    padding: 30px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.quote {
+    padding: 30px;
+    background-color: #fff5e6;
+    text-align: center;
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff704d;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 10px 0;
+}
